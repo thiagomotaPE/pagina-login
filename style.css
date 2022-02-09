@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Zen+Kaku+Gothic+Antique:wght@300&display=swap');
+
+:root{
+    --cor01: #6DA5C6;
+    --cor02: #09283a;
+    --cor03: #134867;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background: rgb(41, 41, 41)  url(img/background02.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+header{
+    background-color: var(--cor02);
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+header > h1{
+    font: normal 1.7em 'Permanent Marker', cursive;
+}
+
+.navegation{
+    text-decoration: none;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    color: #fff;
+    margin-left: 20px;
+}
+.navegation:hover{
+    text-decoration: underline;
+}
