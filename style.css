@@ -12,6 +12,7 @@
 }
 
 body{
+    position: relative;
     height: 100vh;
     background: rgb(41, 41, 41)  url(img/background02.jpg) center center no-repeat;
     background-size: cover;
@@ -37,4 +38,36 @@ header > h1{
 }
 .navegation:hover{
     text-decoration: underline;
+}
+
+#container{
+    position: absolute;
+    background-color: #09283a9f;
+    height: 400px;
+    width: 400px;
+    margin-top: 15px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #09283a6e;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+footer {
+    margin-top: 79vh;
+    padding: 10px;
+    border-top: solid 1px var(--cor02);
+    text-align: center;
+    
+}
+footer > p{
+    color: rgba(255, 255, 255, 0.733);
+    font-style: italic;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
 }
