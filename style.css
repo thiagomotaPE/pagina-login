@@ -17,7 +17,7 @@ body{
     background: rgb(41, 41, 41)  url(img/background02.jpg) center center no-repeat;
     background-size: cover;
 }
-
+/*inicio do cabeçalho*/
 header{
     background-color: var(--cor02);
     color: #fff;
@@ -39,7 +39,9 @@ header > h1{
 .navegation:hover{
     text-decoration: underline;
 }
+/*fim do cabeçalho*/
 
+/*inicio do conteúdo principal*/
 #container{
     position: absolute;
     background-color: #09283a9f;
@@ -101,10 +103,10 @@ input:hover{
 #botao:hover{
     background-color: #09283a71;
 }
+/*fim do conteúdo principal*/
 
 
-
-
+/*inicio do rodapé*/
 footer {
     display: flex;
     justify-content: space-around;
@@ -119,3 +121,4 @@ footer > p{
     font-style: italic;
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
 }
+/*fim do rodapé*/
